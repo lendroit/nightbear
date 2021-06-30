@@ -19,6 +19,16 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://World/LevelManagement/Burst.gd"
 }, {
+"base": "Resource",
+"class": "BurstEmptyResource",
+"language": "GDScript",
+"path": "res://World/LevelManagement/Resources/BurstEmptyResource.gd"
+}, {
+"base": "Resource",
+"class": "BurstResource",
+"language": "GDScript",
+"path": "res://World/LevelManagement/Resources/BurstResource.gd"
+}, {
 "base": "Area2D",
 "class": "DoomProjectile",
 "language": "GDScript",
@@ -39,6 +49,21 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Player/Player.gd"
 }, {
+"base": "Area2D",
+"class": "Projectile",
+"language": "GDScript",
+"path": "res://Projectiles/Projectile.gd"
+}, {
+"base": "Node",
+"class": "SequenceElement",
+"language": "GDScript",
+"path": "res://World/LevelManagement/SequenceElement.gd"
+}, {
+"base": "Resource",
+"class": "SequenceResource",
+"language": "GDScript",
+"path": "res://World/LevelManagement/Resources/SequenceResource.gd"
+}, {
 "base": "Node2D",
 "class": "SpawnHandler",
 "language": "GDScript",
@@ -52,10 +77,15 @@ _global_script_classes=[ {
 _global_script_class_icons={
 "AllyProjectile": "",
 "Burst": "",
+"BurstEmptyResource": "",
+"BurstResource": "",
 "DoomProjectile": "",
 "DreamCatcher": "",
 "EnemyProjectile": "",
 "Player": "",
+"Projectile": "",
+"SequenceElement": "",
+"SequenceResource": "",
 "SpawnHandler": "",
 "Wall": ""
 }
